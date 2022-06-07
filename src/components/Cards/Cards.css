@@ -1,0 +1,16 @@
+.allCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+@media screen and (max-width: 735px) {
+  .allCards {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/*# sourceMappingURL=Cards.css.map */

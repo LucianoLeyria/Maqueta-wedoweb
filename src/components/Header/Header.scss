@@ -1,0 +1,84 @@
+$generalColor: #c23f81;
+
+.logoylogin {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 15px 70px 15.49px 70px;
+}
+
+.button {
+  background: $generalColor;
+  color: white;
+  border-radius: 8px;
+  border: white;
+  padding: 10px 12px 9px 12px;
+  width: 81px;
+  cursor: pointer;
+}
+
+.bannerytitle {
+  position: relative;
+  width: 100%;
+}
+
+.imagebanner {
+  width: 100%;
+  min-height: 200px;
+}
+
+.buttonmenu {
+  display: none;
+}
+
+.title {
+  position: absolute;
+  bottom: 17%;
+  left: 10%;
+  font-size: 60px;
+  color: white;
+}
+
+@media screen and (max-width: 470px) {
+  .logoylogin {
+    padding: 13px 20px 13px 20px;
+  }
+
+  .imagebanner {
+    width: 100%;
+  }
+
+  .button {
+    padding: 10px 10px 9px 10px;
+    width: 81px;
+    cursor: pointer;
+  }
+
+  .bannerytitle {
+    width: 100%;
+  }
+
+  .button {
+    display: none;
+  }
+
+  .buttonmenu {
+    display: block;
+    background: $generalColor;
+    color: white;
+    border-radius: 8px;
+    border: white;
+    padding: 0px;
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+  .title {
+    font-size: 35px;
+  }
+
+  .headerlogo {
+    width: 180px;
+    height: 40px;
+  }
+}

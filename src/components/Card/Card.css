@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+.conteinerCard {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 350px;
+  background-color: #e5e5e5;
+  margin: 5px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+.hombre {
+  border-radius: 10px;
+}
+
+.comentario {
+  display: flex;
+  flex-direction: row;
+  background-color: #d6d5d6 45%;
+  border-radius: 0px 0px 10px 10px;
+  padding: 15px;
+}
+
+.mujer {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.nombreyhashtag {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-self: flex-start;
+  margin-left: 13px;
+}
+
+.nombre {
+  color: #313131;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.hashtag {
+  color: #000000;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/*# sourceMappingURL=Card.css.map */
