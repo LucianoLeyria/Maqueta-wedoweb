@@ -2,9 +2,15 @@
   color: #c23f81;
   font-size: 20px;
   text-align: center;
-  width: 110px;
-  margin-left: 617px;
+  padding: 0px 0px 0px 0px;
+  border: none;
+  background: none;
   cursor: pointer;
+}
+
+.buttonloadmore {
+  display: flex;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=Loadmore.css.map */

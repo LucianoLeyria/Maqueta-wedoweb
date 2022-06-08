@@ -1,17 +1,15 @@
 import React from 'react';
 import '../Card/Card.css';
-import card from '../../Images/card.png';
-import mujer from '../../Images/mujer.png';
 
-export const Card = () => {
+export const Card = ({ name, avatar, hashtag, image }) => {
   return (
     <div className='conteinerCard'>
-      <img className='hombre' src={card} alt='hombre usando celular' />
+      <img className='hombre' src={image} alt='hombre usando celular' />
       <div className='comentario'>
-        <img className='mujer' src={mujer} alt='Foto de mujer' />
+        <img className='mujer' src={avatar} alt='Foto de mujer' />
         <div className='nombreyhashtag'>
-          <p className='nombre'>Sam Jerremy</p>
-          <p className='hashtag'>#dayAtTheBeach</p>
+          <p className='nombre'>{name}</p>
+          <p className='hashtag'>{hashtag}</p>
         </div>
       </div>
     </div>

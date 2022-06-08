@@ -1,10 +1,16 @@
 import React from 'react';
 import '../Loadmore/Loadmore.css';
 
-export const Loadmore = () => {
+export const Loadmore = ({ viewMore }) => {
+  const handleClick = () => {
+    viewMore();
+  };
+
   return (
-    <div>
-      <h1 className='loadmore'>Load More</h1>
+    <div className='buttonloadmore'>
+      <button onClick={handleClick} className='loadmore'>
+        Load More
+      </button>
     </div>
   );
 };

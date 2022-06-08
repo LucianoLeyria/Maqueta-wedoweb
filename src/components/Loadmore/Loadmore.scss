@@ -3,5 +3,12 @@
   font-size: 20px;
   text-align: center;
   padding: 0px 0px 0px 0px;
-  background-color: blue;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.buttonloadmore {
+  display: flex;
+  justify-content: center;
 }
